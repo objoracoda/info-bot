@@ -1,0 +1,15 @@
+@media screen and (max-width: 980px) {
+	.container {
+		padding: 0 14%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.container {
+		padding: 0 2%;
+	}
+
+	.menu-container {
+		font-size: 14px;
+	}
+}
