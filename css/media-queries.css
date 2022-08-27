@@ -2,14 +2,32 @@
 	.container {
 		padding: 0 14%;
 	}
+
+	h1 {
+		font-size: 3rem;
+	}
 }
 
 @media screen and (max-width: 480px) {
 	.container {
-		padding: 0 2%;
+		padding: 0 10%;
 	}
 
-	.menu-container {
+	.menu-container p{
 		font-size: 14px;
+	}
+	h1 {
+		font-size: 2rem;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+
+	p {
+		font-size: 1rem;
+	}
+
+	.avatar img {
+		height: 350px;
 	}
 }

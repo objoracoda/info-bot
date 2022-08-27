@@ -9,16 +9,19 @@ html, body {
 	font-family: arial;
 	padding: 0;
 	margin: 0;
+	background: rgb(23,23,23);
 }
 
-p, h1 {color: #222222}
+p, h1,h2,h3,h4 {color: rgb(196,196,196);}
+p {font-size: 1.2rem}
+h1 {font-size: 3rem}
 
-a {text-decoration: none;color: #0088cc;}
+a {text-decoration: none;color: rgb(45,140,250);}
 a:hover{text-decoration: underline;}
 
 li {list-style-type: none; margin-top: 10px;}
 
-ul {padding: 0; margin-left: 0px;}
+ul {padding: 0; margin-left: 0px;color: rgb(196,196,196)}
 
 header {
 	margin-top: -10px;
@@ -39,6 +42,11 @@ header {
 	display: flex;
 	justify-content: space-between;
 }
+/*
+.avatar img{
+	text-align: center;
+	height: 10rem;
+}*/
 
 .copyright-container {
 	display: flex;
