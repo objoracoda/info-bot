@@ -42,11 +42,10 @@ header {
 	display: flex;
 	justify-content: space-between;
 }
-/*
-.avatar img{
-	text-align: center;
-	height: 10rem;
-}*/
+
+.avatar p{text-align: center;}
+
+.avatar img {height: 16rem;}
 
 .copyright-container {
 	display: flex;
